@@ -1,0 +1,7 @@
+//passso a passo de criação do projeto:
+go mod init github.com/jeftavares/gin-api-rest
+
+//instalação do gin 
+// https://github.com/gin-gonic/gin lá em Installation
+go get -u github.com/gin-gonic/gin
+
