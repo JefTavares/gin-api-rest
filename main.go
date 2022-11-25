@@ -1,12 +1,13 @@
 package main
 
 import (
+	"github.com/jeftavares/gin-api-rest/database"
 	"github.com/jeftavares/gin-api-rest/models"
 	"github.com/jeftavares/gin-api-rest/routes"
 )
 
 func main() {
-
+	database.ConectaComBancoDeDados()
 	//a var Alunos do tipo array da struct Aluno
 	models.Alunos = []models.Aluno{
 		{Nome: "Jef Tavares", CPF: "327.292.678-08", RG: "42.355.815-8"},

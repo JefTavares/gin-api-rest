@@ -5,3 +5,8 @@ go mod init github.com/jeftavares/gin-api-rest
 // https://github.com/gin-gonic/gin lá em Installation
 go get -u github.com/gin-gonic/gin
 
+//instalação do gorm
+//https://gorm.io/
+go get -u gorm.io/gorm
+
+go get gorm.io/driver/postgres

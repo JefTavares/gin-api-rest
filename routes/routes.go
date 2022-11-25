@@ -11,6 +11,6 @@ func HandleRequests() {
 
 	r.GET("/alunos", controllers.ExibeTodosAlunos)
 	r.GET("/:nome", controllers.Saudacao)
-
+	r.POST("/alunos", controllers.CriaNovoAluno)
 	r.Run() //r.Run(":5000") informa a porta, caso queira
 }
