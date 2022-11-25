@@ -10,4 +10,4 @@ type Aluno struct {
 }
 
 // Cria uma lista de Aluno, esta sendo populada lá no main
-var Alunos []Aluno
+//var Alunos []Aluno
