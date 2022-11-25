@@ -10,3 +10,12 @@ go get -u github.com/gin-gonic/gin
 go get -u gorm.io/gorm
 
 go get gorm.io/driver/postgres
+
+
+//validator 
+https://pkg.go.dev/gopkg.in/validator.v2
+
+
+
+dar permissão na posta do docker, para subir o postgres tbm 
+sudo chmod -R 777 .docker/
